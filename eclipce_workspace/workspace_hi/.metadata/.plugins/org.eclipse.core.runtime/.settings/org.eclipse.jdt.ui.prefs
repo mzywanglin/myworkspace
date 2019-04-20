@@ -1,0 +1,28 @@
+</instance-parameter>=
+</method>=
+</parameters>=
+</return-value>=
+<doc=xml\:space\="preserve">the value assigned to @key. Free with g_free().</doc>
+<doc-deprecated=xml\:space\="preserve">use gtk_source_file_get_location() instead. Attention,
+<instance-parameter=name\="doc" transfer-ownership\="none">
+<method=name\="get_metadata" c\:identifier\="gedit_document_get_metadata">
+<parameters>=
+<return-value=transfer-ownership\="full">
+<type=name\="Document" c\:type\="GeditDocument*"/>
+If=you want to save the \#GeditDocument to a secondary file, you can create a
+ated.=
+c=identifier\="gedit_document_get_location"
+content_assist_proposals_background=255,255,255
+content_assist_proposals_foreground=0,0,0
+deprecated="1"
+deprecated-version="3.14">
+eclipse.preferences.version=1
+gedit_document_get_location()=has a transfer full for the return value, while
+gtk_source_file_get_location()=has a transfer none.</doc-deprecated>
+new=\#GtkSourceFile and use a \#GtkSourceFileSaver.</doc>
+org.eclipse.jdt.ui.formatterprofiles.version=16
+org.eclipse.jdt.ui.text.code_templates_migrated=true
+org.eclipse.jdt.ui.text.custom_code_templates=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?><templates/>
+spelling_locale_initialized=true
+useAnnotationsPrefPage=true
+useQuickDiffPrefPage=true
